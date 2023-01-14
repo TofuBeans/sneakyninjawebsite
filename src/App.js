@@ -33,9 +33,9 @@ function App() {
       </div>
       {/* <Navigate to='/'></Navigate> */}
       <Routes>
-        <Route path='/' element={<Home></Home>}></Route>
-        <Route path='/JTG' element={<JTG></JTG>}></Route>
-        {/* <Route path='' element={<Navigate to='/'/>}></Route> */}
+        <Route path='/sneakyninjawebsite' element={<Home></Home>}></Route>
+        <Route path='/sneakyninjawebsite/JTG' element={<JTG></JTG>}></Route>
+        {/* <Route path='/sneakyninjawebsite' element={<Navigate to='/'/>}></Route> */}
       </Routes>
     </div>
     
