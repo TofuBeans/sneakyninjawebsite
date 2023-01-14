@@ -31,7 +31,7 @@ function App() {
         </div>
         <div className='my-3'/>
       </div>
-
+      <Navigate to='/'></Navigate>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/JTG' element={<JTG></JTG>}></Route>
