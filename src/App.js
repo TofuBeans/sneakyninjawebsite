@@ -35,7 +35,8 @@ function App() {
       <Routes>
         <Route path='/sneakyninjawebsite' element={<Home></Home>}></Route>
         <Route path='/sneakyninjawebsite/JTG' element={<JTG></JTG>}></Route>
-        {/* <Route path='/sneakyninjawebsite' element={<Navigate to='/'/>}></Route> */}
+        <Route path='/' element={<Navigate to='/sneakyninjawebsite'/>}></Route>
+        <Route path='' element={<Navigate to='/sneakyninjawebsite'/>}></Route>
       </Routes>
     </div>
     
