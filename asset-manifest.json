@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sneakyninjawebsite/static/css/main.df993778.css",
-    "main.js": "/sneakyninjawebsite/static/js/main.dcc19db3.js",
+    "main.js": "/sneakyninjawebsite/static/js/main.edfbbede.js",
     "static/js/787.3deb185d.chunk.js": "/sneakyninjawebsite/static/js/787.3deb185d.chunk.js",
     "index.html": "/sneakyninjawebsite/index.html",
     "main.df993778.css.map": "/sneakyninjawebsite/static/css/main.df993778.css.map",
-    "main.dcc19db3.js.map": "/sneakyninjawebsite/static/js/main.dcc19db3.js.map",
+    "main.edfbbede.js.map": "/sneakyninjawebsite/static/js/main.edfbbede.js.map",
     "787.3deb185d.chunk.js.map": "/sneakyninjawebsite/static/js/787.3deb185d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df993778.css",
-    "static/js/main.dcc19db3.js"
+    "static/js/main.edfbbede.js"
   ]
 }
