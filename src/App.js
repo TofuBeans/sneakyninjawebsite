@@ -34,6 +34,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/JTG' element={<JTG></JTG>}></Route>
+        <Route path='' element={<Home></Home>}></Route>
       </Routes>
     </div>
     
