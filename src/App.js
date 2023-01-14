@@ -31,13 +31,13 @@ function App() {
         </div>
         <div className='my-3'/>
       </div>
-      {/* <Navigate to='/'></Navigate> */}
       <Routes>
         <Route path='/sneakyninjawebsite' element={<Home></Home>}></Route>
         <Route path='/sneakyninjawebsite/JTG' element={<JTG></JTG>}></Route>
         <Route path='/' element={<Navigate to='/sneakyninjawebsite'/>}></Route>
         <Route path='' element={<Navigate to='/sneakyninjawebsite'/>}></Route>
       </Routes>
+      <Navigate to='/sneakyninjawebsite'></Navigate>
     </div>
     
     
