@@ -4,6 +4,7 @@ import {
   Routes,
   Route,
   Link,
+  Navigate,
   NavLink
 } from 'react-router-dom';
 import Home from './components/Home.js';
@@ -34,7 +35,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/JTG' element={<JTG></JTG>}></Route>
-        <Route path='' element={<Home></Home>}></Route>
+        <Route path='/sneakyninjawebsite' element={<Navigate to='/'/>}></Route>
       </Routes>
     </div>
     
